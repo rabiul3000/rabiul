@@ -1,0 +1,78 @@
+.hero {
+	height: calc(100vh - 50px);
+	position: relative;
+	color: white;
+	display: flex;
+
+	.hero__left {
+		z-index: 2;
+		flex: 0.5;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		h1 {
+			font-size: 2rem;
+			color: greenyellow;
+		}
+
+		h2 {
+			color: aqua;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+		}
+
+		.buttons {
+			display: flex;
+			gap: 0.5rem;
+			padding: 1rem;
+
+			button {
+				color: white;
+				padding: 0.5rem;
+				background: transparent;
+				border: 1px solid grey;
+				font-weight: bold;
+
+				&:hover {
+					border: 1px solid lightgrey;
+					transition: all 0.3s;
+				}
+			}
+		}
+	}
+
+	.hero__right {
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		flex: 0.5;
+		height: 100%;
+		display: flex;
+		padding-top: 0.5rem;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
+
+	.sliderText {
+		width: 100%;
+		overflow: hidden;
+		z-index: 1;
+		position: absolute;
+		color: rgba(128, 128, 128, 0.5);
+		opacity: 0.1;
+		font-size: 10rem;
+		font-weight: bolder;
+		bottom: -30px;
+
+		p {
+			white-space: nowrap;
+		}
+	}
+}
