@@ -6,12 +6,23 @@
 	height: 50px;
 
 	.links {
+		margin-top: 1rem;
 		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
 		gap: 1rem;
+
+		.dev {
+			color: white;
+			display: flex;
+			margin-bottom: 0.5rem;
+			font-size: small;
+			opacity: 0.5;
+		}
 
 		img {
 			width: 30px;
-			object-fit: cover;
 		}
 	}
 }
