@@ -7,12 +7,6 @@ const Projects = () => {
 		<div id='Projects' className='projects'>
 			<Project />
 			<Project />
-			<Project />
-			<Project />
-			<Project />
-			<Project />
-			<Project />
-			<Project />
 		</div>
 	);
 };
