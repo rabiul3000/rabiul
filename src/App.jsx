@@ -59,12 +59,12 @@ const App = () => {
 				<About />
 			</section>
 
-			<section><Contact /></section>
+			<section>
+				<Contact />
+			</section>
 		</div>
 	);
 };
 
 export default App;
-
-
 
