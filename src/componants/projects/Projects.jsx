@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import './Projects.scss';
 import Project from './project/Project';
 
