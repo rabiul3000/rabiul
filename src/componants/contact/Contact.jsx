@@ -9,13 +9,8 @@ const Contact = () => {
 			className='contact'
 			initial={{ opacity: 0, x: -500 }}
 			whileInView={{
-				transition: { type: 'spring' },
 				opacity: 1,
-				x: 0,
-			}}
-			animate={{
-				transition: { type: 'spring' },
-				opacity: 1,
+				transition: { type: 'spring', duration: 2 },
 				x: 0,
 			}}
 		>
