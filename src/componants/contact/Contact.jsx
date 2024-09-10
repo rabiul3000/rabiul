@@ -14,7 +14,7 @@ const Contact = () => {
 				x: 0,
 			}}
 		>
-			<a href='mailto:mdrabiul.asia@gmail.com'>
+			<a href='mailto:mdrabiul.asia@gmail.com' target='_blank'>
 				<motion.div
 					className='card'
 					whileHover={{
@@ -30,7 +30,7 @@ const Contact = () => {
 					</div>
 				</motion.div>
 			</a>
-			<a href='https://github.com/rabiul3000'>
+			<a href='https://github.com/rabiul3000' target='_blank'>
 				<motion.div
 					className='card'
 					whileHover={{
@@ -47,7 +47,7 @@ const Contact = () => {
 				</motion.div>
 			</a>
 
-			<a href='https://github.com/rabiul3000'>
+			<a href='https://github.com/rabiul3000' target='_blank'>
 				<motion.div
 					className='card'
 					whileHover={{
@@ -59,12 +59,12 @@ const Contact = () => {
 					}}
 				>
 					<div className='image'>
-						<img src='/linkedin.svg' alt='whatsapp' />
+						<img src='/linkedin.svg' alt='linkedin' />
 					</div>
 				</motion.div>
 			</a>
 
-			<a href='https://www.facebook.com/people/Md-Rabiul/61557375413667/?mibextid=ZbWKwL'>
+			<a href='https://www.facebook.com/people/Md-Rabiul/61557375413667/?mibextid=ZbWKwL' target='_blank'>
 				<motion.div
 					className='card'
 					whileHover={{

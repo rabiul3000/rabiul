@@ -19,7 +19,10 @@ const Navbar = () => {
 					</a>
 				</div>
 				<div className='facebook'>
-					<a href='https://www.facebook.com/people/Md-Rabiul/61557375413667/?mibextid=ZbWKwL' target='_blank'>
+					<a
+						href='https://www.facebook.com/people/Md-Rabiul/61557375413667/?mibextid=ZbWKwL'
+						target='_blank'
+					>
 						<motion.img
 							whileHover={{ scale: 1.2, transition: { duration: 0.2 } }}
 							src='/facebook.png'
