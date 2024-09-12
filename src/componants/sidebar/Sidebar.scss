@@ -16,6 +16,30 @@
 		z-index: 101;
 	}
 
+	.visible {
+		clip-path: circle(200% at 9% 25px);
+		background: red;
+
+		transition: clip-path 1s;
+		animation-duration: 1s;
+		animation-timing-function: ease-in-out;
+	}
+
+	.hidden {
+		clip-path: circle(5% at 9% 25px);
+		transition: clip-path 1s;
+		animation-duration: 1s;
+		animation-timing-function: ease-in-out;
+
+		@media (max-width: 480px) {
+			clip-path: circle(5% at 28% 25px);
+		}
+
+		@media (max-width: 320px) {
+			clip-path: circle(5% at 15% 25px);
+		}
+	}
+
 	.links {
 		position: fixed;
 		background: transparent;
@@ -28,6 +52,10 @@
 		justify-content: center;
 		text-align: center;
 		gap: 2rem;
+
+		@media (max-width: 320px) {
+			width: 50%;
+		}
 
 		div {
 			cursor: pointer;

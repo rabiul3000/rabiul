@@ -7,6 +7,7 @@ const Projects = () => {
 		<div id='Projects' className='projects'>
 			<Project />
 			<Project />
+			<Project />
 		</div>
 	);
 };

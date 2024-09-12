@@ -7,7 +7,11 @@ const Project = () => {
 		<div className='project__container'>
 			<div className='project'>
 				<motion.div className='left'>
-					<a href='https://microdrive-client.vercel.app/' target='_blank' className='link'>
+					<a
+						href='https://microdrive-client.vercel.app/'
+						target='_blank'
+						className='link'
+					>
 						<motion.img
 							className='image'
 							initial={{ opacity: 0, scale: 0.2 }}

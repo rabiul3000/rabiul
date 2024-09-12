@@ -5,6 +5,10 @@
 	padding: 1rem;
 	height: 50px;
 
+	@media (max-width: 480px) {
+		display: none;
+	}
+
 	.links {
 		margin-top: 1rem;
 		display: flex;

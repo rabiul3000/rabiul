@@ -45,8 +45,6 @@ const Navbar = () => {
 				<motion.div
 					className='dev'
 					whileHover={{ scale: 1.2, transition: { duration: 0.2 } }}
-					onMouseEnter={() => setEnter(true)}
-					onMouseLeave={() => setEnter(false)}
 				>
 					website is still under development
 				</motion.div>

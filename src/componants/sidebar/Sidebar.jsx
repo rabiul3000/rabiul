@@ -8,7 +8,7 @@ const Sidebar = () => {
 
 	const variants = {
 		hidden: {
-			clipPath: 'circle(5% at 9% 25px)',
+			// clipPath: 'circle(5% at 9% 25px)',
 			transition: {
 				type: 'spring',
 				stiffness: 400,
@@ -19,7 +19,7 @@ const Sidebar = () => {
 			},
 		},
 		visible: {
-			clipPath: 'circle(200% at 9% 25px)',
+			// clipPath: 'circle(200% at 9% 25px)',
 			opacity: 1,
 
 			transition: {
@@ -39,7 +39,7 @@ const Sidebar = () => {
 			</button>
 
 			<motion.div
-				className='links'
+				className={`links ${showSidebar ? 'visible' : 'hidden'}`}
 				variants={variants}
 				animate={showSidebar ? 'visible' : 'hidden'}
 			>

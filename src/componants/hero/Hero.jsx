@@ -62,15 +62,15 @@ const Hero = () => {
 					</motion.button>
 				</motion.div>
 
-				<motion.div
-					className='scrollIcon'
-					variants={heroVariants}
-					animate='scrollIcon'
-					onMouseEnter={() => setEnter(true)}
-					onMouseLeave={() => setEnter(false)}
-				>
-					<Scroll />
-				</motion.div>
+				<a href='#Projects'>
+					<motion.div
+						className='scrollIcon'
+						variants={heroVariants}
+						animate='scrollIcon'
+					>
+						<Scroll />
+					</motion.div>
+				</a>
 			</motion.div>
 
 			<motion.div className='sliderText' variants={heroVariants}>

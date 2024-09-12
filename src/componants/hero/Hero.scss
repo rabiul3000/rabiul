@@ -3,6 +3,14 @@
 	position: relative;
 	color: white;
 	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@media (max-width: 320px) {
+		flex-direction: column-reverse;
+		height: 100vh;
+		padding-top: 1rem;
+	}
 
 	.hero__left {
 		z-index: 2;
@@ -14,7 +22,7 @@
 		justify-content: center;
 
 		h1 {
-			font-size: 2rem;
+			font-size: 2vw;
 			color: greenyellow;
 		}
 
@@ -31,7 +39,7 @@
 
 			button {
 				color: white;
-				padding: 0.5rem;
+				padding: 0.2em;
 				background: transparent;
 				border: 1px solid grey;
 				font-weight: bold;
@@ -42,6 +50,9 @@
 				}
 			}
 		}
+
+		
+
 	}
 
 	.hero__right {
