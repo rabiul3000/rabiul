@@ -1,0 +1,21 @@
+.link {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+
+	height: 7vh;
+
+	a {
+		outline-style: none;
+		text-decoration: none;
+		color: #f1dada;
+	}
+
+	.ball {
+		width: 5px;
+		height: 5px;
+		border-radius: 25%;
+		background-color: green;
+	}
+}

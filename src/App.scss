@@ -1,3 +1,13 @@
 .app {
 	background: black;
+
+	[data-scroll-container] {
+		overflow: hidden;
+	}
+}
+.normalFont {
+	font-family: 'DM Sans', system-ui;
+}
+.modFont {
+	font-family: 'Bebas Neue', sans-serif;
 }
