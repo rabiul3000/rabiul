@@ -5,14 +5,16 @@ const Hero = () => {
 	return (
 		<section className='hero'>
 			<div className='intro'>
-				<div className='title'>I am a full stack developer (MERN) </div>
-				<div className='anchor'>
-					<a href='#projects'>Project</a>
-					<a href='#contact'>Contact</a>
+				<h1 className='title'>Full Stack developer</h1>
+				<p className='address'>From Dhaka, Bangladesh</p>
+				<div className='announce'>
+					<div className='dot'></div>
+					<p>Available for freelancing</p>
 				</div>
 			</div>
+
 			<div className='photo'>
-				<img src='/avatar2.png' alt='img' />
+				<img src='/me.png' alt='img' />
 			</div>
 		</section>
 	);

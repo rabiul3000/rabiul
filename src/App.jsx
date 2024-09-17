@@ -7,14 +7,19 @@ import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/src/locomotive-scroll.scss'; // Import Locomotive's CSS
 
 const App = () => {
-  const scrollRef = useRef(null); // Create a ref for the scroll container
+  const scrollRef = useRef(null);
 
   useEffect(() => {
-    // Initialize Locomotive Scroll
     const scroll = new LocomotiveScroll({
-      el: scrollRef.current, // Pass the scroll container
-      smooth: true, // Enable smooth scrolling
-      multiplier: 1.2, // Control speed
+      el: scrollRef.current, // Set the scroll container reference
+      smooth: true,
+      multiplier: 1.2,
+      smartphone: {
+        smooth: true,
+      },
+      tablet: {
+        smooth: true,
+      },
     });
 
     return () => {
@@ -24,7 +29,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="app" ref={scrollRef} data-scroll-container> {/* Set up the scroll container */}
+    <div className="app" data-scroll-container ref={scrollRef}>
       <Navbar />
       <Hero />
       <Projects />

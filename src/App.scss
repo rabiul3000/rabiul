@@ -1,10 +1,18 @@
 .app {
+	overflow: hidden;
+	position: relative;
 	background: black;
 
 	[data-scroll-container] {
+		height: 100%;
 		overflow: hidden;
 	}
+
+	section {
+		min-height: 100vh;
+	}
 }
+
 .normalFont {
 	font-family: 'DM Sans', system-ui;
 }
