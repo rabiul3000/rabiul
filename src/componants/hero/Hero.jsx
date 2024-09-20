@@ -4,7 +4,7 @@ import './Hero.scss';
 const Hero = () => {
 	return (
 		<section className='hero'>
-			<div className='intro'>
+			<div className='intro modFont'>
 				<h1 className='title'>Full Stack developer</h1>
 				<p className='address'>From Dhaka, Bangladesh</p>
 				<div className='announce'>
@@ -14,7 +14,7 @@ const Hero = () => {
 			</div>
 
 			<div className='photo'>
-				<img src='/me.png' alt='img' />
+				<img src='/rabiulNobg.png' alt='img' />
 			</div>
 		</section>
 	);
