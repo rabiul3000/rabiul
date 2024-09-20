@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<section className='hero'>
 			<div className='intro modFont'>
-				<h1 className='title'>Full Stack developer</h1>
+				<h1 className='name'>Md Rabiul</h1>
 				<p className='address'>From Dhaka, Bangladesh</p>
 				<div className='announce'>
 					<div className='dot'></div>
@@ -15,6 +15,10 @@ const Hero = () => {
 
 			<div className='photo'>
 				<img src='/rabiulNobg.png' alt='img' />
+			</div>
+
+			<div className="title modFont">
+				FrontEnd & BackEnd Developer
 			</div>
 		</section>
 	);
