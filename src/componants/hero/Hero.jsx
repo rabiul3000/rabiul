@@ -15,11 +15,13 @@ const Hero = () => {
 
 			<div className='photo'>
 				<img src='/rabiulNobg.png' alt='img' />
+				<div className='bgContainer'>
+					<div className='bg'></div>
+					<div className='bg2'></div>
+				</div>
 			</div>
 
-			<div className="title modFont">
-				FrontEnd & BackEnd Developer
-			</div>
+			<div className='title modFont'>FrontEnd & BackEnd Developer</div>
 		</section>
 	);
 };
