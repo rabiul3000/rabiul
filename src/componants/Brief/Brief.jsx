@@ -17,7 +17,7 @@ const Brief = () => {
 					if (entry.isIntersecting) {
 						entry.target.style.color = '#f1dada'; // Change color to black when in view
 					} else {
-						entry.target.style.color = 'darkgrey'; // Change color back to grey when out of view
+						entry.target.style.color = 'black'; // Change color back to grey when out of view
 					}
 				});
 			},
