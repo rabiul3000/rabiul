@@ -17,7 +17,6 @@ const Hero = () => {
 				<img src='/rabiulNobg.png' alt='img' />
 				<div className='bgContainer'>
 					<div className='bg'></div>
-					<div className='bg2'></div>
 				</div>
 			</div>
 
